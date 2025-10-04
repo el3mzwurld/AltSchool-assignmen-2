@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bejamas : Home</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img src="./assets/img/BEJAMAS_ico.jpg" alt="" />
+      </div>
+      <div class="cart">
+        <div class="cart-ico">
+          <img src="./assets/img/cart_ico.jpg" alt="" />
+        </div>
+
+        <div class="cart-container">
+          <div class="ico">x</div>
+          <div class="cart_tray">
+            <div class="tray-item">
+              <div class="info">
+                <p class="title">Samurai King Resting</p>
+                <p class="txt">$100.00</p>
+              </div>
+              <div class="img">
+                <img src="./assets/img/dog_mob.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cart_btn">CLEAR</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero_img">
+          <div class="controls">
+            <p class="controls_txt">Samurai King Resting</p>
+
+            <button class="controls_btn">ADD TO CART</button>
+          </div>
+          <div class="image">
+            <div class="image_txt">Photo of the day</div>
+            <div class="image_content">
+              <img
+                src="./assets/img/dog_mob.jpg"
+                alt="samurai king"
+                class="mob"
+              />
+              <img
+                src="./assets/img/hero_img.jpg"
+                alt="samurai king"
+                class="desktop"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="hero_info">
+          <div class="hero_info_txt">
+            <h1 class="txt_title">About the Samurai King Resting</h1>
+            <p class="txt_sub">
+              So how did the classical Latin become so incoherent? According to
+              McClintock, a 15th century typesetter likely scrambled part of
+              Cicero's De Finibus in order to provide placeholder text to mockup
+              various fonts for a type specimen book.So how did the classical
+              Latin become so incoherent? <br />
+              According to McClintock, a 15th century typesetter likely
+              scrambled part of Cicero's De Finibus in order to provide
+              placeholder text to mockup various fonts for a type specimen
+              book.So how did the classical Latin become so incoherent?
+              According to McClintock.
+            </p>
+          </div>
+          <div class="hero_info_suggestions">
+            <h1 class="suggestions_title">People also buy</h1>
+            <div class="suggestions_cards">
+              <div class="card">
+                <img src="./assets/img/door_mob.png" alt="" />
+              </div>
+              <div class="card">
+                <img src="./assets/img/window_mob.png" alt="" />
+              </div>
+              <div class="card">
+                <img src="./assets/img/egg_mob.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="hero_info_details">
+            <div class="details_title">Details</div>
+            <p>Size : 1020 x 1020 pixel</p>
+            <p>Size : 15 mb</p>
+          </div>
+        </div>
+      </section>
+      <section class="photos">
+        <div class="photos_title">
+          <p>Photographs / <span>Premium photos</span></p>
+
+          <div class="ico" id="mob">
+            <img src="./assets/img/filter_ico.png" alt="" />
+          </div>
+          <div class="ico" id="desktop"></div>
+        </div>
+
+        <div class="container">
+          <div class="photos_filters">
+            <div class="filters_content">
+              <div class="content_title">
+                <p>Filter</p>
+
+                <div class="ico">
+                  <img
+                    src="./assets/img/close_ico_mob.png"
+                    alt="close filters"
+                  />
+                </div>
+              </div>
+              <div class="content_filter-list">
+                <div class="list_cat">
+                  <div class="cat_title">
+                    <p>Category</p>
+                  </div>
+                  <div class="cat">
+                    <input
+                      type="checkbox"
+                      name="people"
+                      id="people"
+                      class="check"
+                    />
+                    <p>People</p>
+                  </div>
+                  <div class="cat">
+                    <input
+                      type="checkbox"
+                      name="premium"
+                      id="premium"
+                      class="check"
+                    />
+                    <p>Premium</p>
+                  </div>
+                  <div class="cat">
+                    <input
+                      type="checkbox"
+                      name="pets"
+                      id="pets"
+                      class="check"
+                    />
+                    <p>Pets</p>
+                  </div>
+                  <div class="cat">
+                    <input
+                      type="checkbox"
+                      name="food"
+                      id="food"
+                      class="check"
+                    />
+                    <p>Food</p>
+                  </div>
+                  <div class="cat">
+                    <input
+                      type="checkbox"
+                      name="landmarks"
+                      id="landmarks"
+                      class="check"
+                    />
+                    <p>Landmarks</p>
+                  </div>
+                  <div class="cat">
+                    <input
+                      type="checkbox"
+                      name="cities"
+                      id="cities"
+                      class="check"
+                    />
+                    <p>Cities</p>
+                  </div>
+                  <div class="cat">
+                    <input
+                      type="checkbox"
+                      name="nature"
+                      id="nature"
+                      class="check"
+                    />
+                    <p>Nature</p>
+                  </div>
+                </div>
+                <div class="list_prices">
+                  <div class="prices_title">
+                    <p>Price Range</p>
+                  </div>
+                  <div class="price">
+                    <input type="checkbox" name="" id="" class="check" />
+                    <p>Lower than $20</p>
+                  </div>
+                  <div class="price">
+                    <input type="checkbox" name="" id="" class="check" />
+                    <p>$20 - $100</p>
+                  </div>
+                  <div class="price">
+                    <input type="checkbox" name="" id="" class="check" />
+                    <p>$100 - $200</p>
+                  </div>
+                  <div class="price">
+                    <input type="checkbox" name="" id="" class="check" />
+                    <p>More than $200</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="filters_btns">
+              <div class="btns">
+                <button class="btns_btn" id="clear">CLEAR</button>
+                <button class="btns_btn" id="save">SAVE</button>
+              </div>
+            </div>
+          </div>
+          <div class="photos_grid">
+            <div class="grid" id="mob">
+              <div class="card">
+                <div class="preview">
+                  <img src="./assets/img/grid_people_mob.png" alt="" />
+                  <div class="card-cart_btn">ADD TO CART</div>
+                  <div class="desc">Best seller</div>
+                </div>
+                <div class="txt">
+                  <p class="txt_category">People</p>
+                  <p class="txt_name">Red bench</p>
+                  <p class="txt_price">$ 3.38</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="preview">
+                  <img src="./assets/img/grid_people_mob.png" alt="" />
+                  <div class="card-cart_btn">ADD TO CART</div>
+                  <div class="desc">Best seller</div>
+                </div>
+                <div class="txt">
+                  <p class="txt_category">People</p>
+                  <p class="txt_name">Red bench</p>
+                  <p class="txt_price">$ 3.38</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="preview">
+                  <img src="./assets/img/grid_people_mob.png" alt="" />
+                  <div class="card-cart_btn">ADD TO CART</div>
+                  <div class="desc">Best seller</div>
+                </div>
+                <div class="txt">
+                  <p class="txt_category">People</p>
+                  <p class="txt_name">Red bench</p>
+                  <p class="txt_price">$ 3.38</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="preview">
+                  <img src="./assets/img/grid_egg_mob.png" alt="" />
+                  <div class="card-cart_btn">ADD TO CART</div>
+                  <div class="desc">Best seller</div>
+                </div>
+                <div class="txt">
+                  <p class="txt_category">Food</p>
+                  <p class="txt_name">Egg Balloon</p>
+                  <p class="txt_price">$ 90.00</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="preview">
+                  <img src="./assets/img/grid_sea_mob.png" alt="" />
+                  <div class="card-cart_btn">ADD TO CART</div>
+                  <div class="desc">Best seller</div>
+                </div>
+                <div class="txt">
+                  <p class="txt_category">People</p>
+                  <p class="txt_name">Man</p>
+                  <p class="txt_price">$ 100.00</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="preview">
+                  <img src="./assets/img/grid_building_mob.png" alt="" />
+                  <div class="card-cart_btn">ADD TO CART</div>
+                  <div class="desc">Best seller</div>
+                </div>
+                <div class="txt">
+                  <p class="txt_category">Landmarks</p>
+                  <p class="txt_name">Architecture</p>
+                  <p class="txt_price">$ 55.00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pagination">
+              <button class="arrow" aria-label="Previous page">‹</button>
+              <button class="pagination_btn">1</button>
+              <button class="pagination_btn">2</button>
+              <button class="pagination_btn">3</button>
+              <button class="pagination_btn">4</button>
+              <button class="arrow" aria-label="Next page">›</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
