@@ -313,8 +313,10 @@ const renderCards = (page) => {
                 </div>`;
 
     grid.appendChild(card);
-    const cartBtn = document.querySelector(".card-cart_btn");
-    cartBtn.addEventListener("click", () => addToCart(c));
+    const btn = card.querySelector(".card-cart_btn");
+    btn.addEventListener("click", () => {
+      addToCart(c);
+    });
   });
 };
 
