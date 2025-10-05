@@ -19,17 +19,7 @@
 
         <div class="cart-container">
           <div class="ico">x</div>
-          <div class="cart_tray">
-            <div class="tray-item">
-              <div class="info">
-                <p class="title">Samurai King Resting</p>
-                <p class="txt">$100.00</p>
-              </div>
-              <div class="img">
-                <img src="./assets/img/dog_mob.jpg" alt="" />
-              </div>
-            </div>
-          </div>
+          <div class="cart_tray"></div>
           <div class="cart_btn">CLEAR</div>
         </div>
       </div>
@@ -37,6 +27,7 @@
 
     <main>
       <section class="hero">
+        <!-- everything here is rendered as static HTML, no Javascript logic has been added to this section of the page -->
         <div class="hero_img">
           <div class="controls">
             <p class="controls_txt">Samurai King Resting</p>
@@ -130,6 +121,7 @@
                       name="people"
                       id="people"
                       class="check"
+                      value="people"
                     />
                     <p>People</p>
                   </div>
@@ -139,6 +131,7 @@
                       name="premium"
                       id="premium"
                       class="check"
+                      value="premium"
                     />
                     <p>Premium</p>
                   </div>
@@ -148,6 +141,7 @@
                       name="pets"
                       id="pets"
                       class="check"
+                      value="pets"
                     />
                     <p>Pets</p>
                   </div>
@@ -157,6 +151,7 @@
                       name="food"
                       id="food"
                       class="check"
+                      value="food"
                     />
                     <p>Food</p>
                   </div>
@@ -166,6 +161,7 @@
                       name="landmarks"
                       id="landmarks"
                       class="check"
+                      value="landmarks"
                     />
                     <p>Landmarks</p>
                   </div>
@@ -175,6 +171,7 @@
                       name="cities"
                       id="cities"
                       class="check"
+                      value="cities"
                     />
                     <p>Cities</p>
                   </div>
@@ -184,6 +181,7 @@
                       name="nature"
                       id="nature"
                       class="check"
+                      value="nature"
                     />
                     <p>Nature</p>
                   </div>
@@ -193,19 +191,43 @@
                     <p>Price Range</p>
                   </div>
                   <div class="price">
-                    <input type="checkbox" name="" id="" class="check" />
+                    <input
+                      type="checkbox"
+                      name=""
+                      id=""
+                      class="check"
+                      value="<20"
+                    />
                     <p>Lower than $20</p>
                   </div>
                   <div class="price">
-                    <input type="checkbox" name="" id="" class="check" />
+                    <input
+                      type="checkbox"
+                      name=""
+                      id=""
+                      class="check"
+                      value="20-100"
+                    />
                     <p>$20 - $100</p>
                   </div>
                   <div class="price">
-                    <input type="checkbox" name="" id="" class="check" />
+                    <input
+                      type="checkbox"
+                      name=""
+                      id=""
+                      class="check"
+                      value="100-200"
+                    />
                     <p>$100 - $200</p>
                   </div>
                   <div class="price">
-                    <input type="checkbox" name="" id="" class="check" />
+                    <input
+                      type="checkbox"
+                      name=""
+                      id=""
+                      class="check"
+                      value=">200"
+                    />
                     <p>More than $200</p>
                   </div>
                 </div>
@@ -220,88 +242,15 @@
             </div>
           </div>
           <div class="photos_grid">
-            <div class="grid" id="mob">
-              <div class="card">
-                <div class="preview">
-                  <img src="./assets/img/grid_people_mob.png" alt="" />
-                  <div class="card-cart_btn">ADD TO CART</div>
-                  <div class="desc">Best seller</div>
-                </div>
-                <div class="txt">
-                  <p class="txt_category">People</p>
-                  <p class="txt_name">Red bench</p>
-                  <p class="txt_price">$ 3.38</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="preview">
-                  <img src="./assets/img/grid_people_mob.png" alt="" />
-                  <div class="card-cart_btn">ADD TO CART</div>
-                  <div class="desc">Best seller</div>
-                </div>
-                <div class="txt">
-                  <p class="txt_category">People</p>
-                  <p class="txt_name">Red bench</p>
-                  <p class="txt_price">$ 3.38</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="preview">
-                  <img src="./assets/img/grid_people_mob.png" alt="" />
-                  <div class="card-cart_btn">ADD TO CART</div>
-                  <div class="desc">Best seller</div>
-                </div>
-                <div class="txt">
-                  <p class="txt_category">People</p>
-                  <p class="txt_name">Red bench</p>
-                  <p class="txt_price">$ 3.38</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="preview">
-                  <img src="./assets/img/grid_egg_mob.png" alt="" />
-                  <div class="card-cart_btn">ADD TO CART</div>
-                  <div class="desc">Best seller</div>
-                </div>
-                <div class="txt">
-                  <p class="txt_category">Food</p>
-                  <p class="txt_name">Egg Balloon</p>
-                  <p class="txt_price">$ 90.00</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="preview">
-                  <img src="./assets/img/grid_sea_mob.png" alt="" />
-                  <div class="card-cart_btn">ADD TO CART</div>
-                  <div class="desc">Best seller</div>
-                </div>
-                <div class="txt">
-                  <p class="txt_category">People</p>
-                  <p class="txt_name">Man</p>
-                  <p class="txt_price">$ 100.00</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="preview">
-                  <img src="./assets/img/grid_building_mob.png" alt="" />
-                  <div class="card-cart_btn">ADD TO CART</div>
-                  <div class="desc">Best seller</div>
-                </div>
-                <div class="txt">
-                  <p class="txt_category">Landmarks</p>
-                  <p class="txt_name">Architecture</p>
-                  <p class="txt_price">$ 55.00</p>
-                </div>
-              </div>
-            </div>
+            <div class="grid"></div>
 
             <div class="pagination">
-              <button class="arrow" aria-label="Previous page">‹</button>
-              <button class="pagination_btn">1</button>
-              <button class="pagination_btn">2</button>
-              <button class="pagination_btn">3</button>
-              <button class="pagination_btn">4</button>
-              <button class="arrow" aria-label="Next page">›</button>
+              <button class="arrow" id="page_prev" aria-label="Previous page">
+                ‹
+              </button>
+              <button class="arrow" id="page_next" aria-label="Next page">
+                ›
+              </button>
             </div>
           </div>
         </div>

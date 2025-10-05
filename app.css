@@ -116,6 +116,7 @@ button {
         align-items: center;
         justify-content: space-between;
         gap: 10px;
+        padding: 10px 0px;
 
         .info {
           height: 100%;
@@ -572,6 +573,7 @@ button {
                 position: absolute;
                 bottom: 0;
                 text-align: center;
+                cursor: pointer;
               }
               .desc {
                 position: absolute;
@@ -695,6 +697,7 @@ button {
         align-items: center;
         justify-content: space-between;
         gap: 10px;
+        padding: 10px 0px;
 
         .info {
           height: 100%;
@@ -1184,6 +1187,7 @@ button {
                 position: absolute;
                 bottom: 0;
                 text-align: center;
+                cursor: pointer;
               }
               .desc {
                 position: absolute;
@@ -1334,6 +1338,7 @@ button {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            padding: 10px 0px;
 
             .info {
               height: 100%;
@@ -1675,12 +1680,16 @@ button {
               width: 30px;
               background: none;
               color: var(--bg-alt);
-              font-size: 20px;
+              font-size: 40px;
+              cursor: pointer;
             }
-          }
 
-          .active {
-            background: var(--color-gray-dark);
+            .pagination_btn {
+              background: var(--bg-alt);
+            }
+            .active {
+              background: var(--color-gray-dark);
+            }
           }
 
           .grid {
@@ -1728,6 +1737,7 @@ button {
                   padding: 10px 0px;
                   text-align: center;
                   transition: all 0.4s ease;
+                  cursor: pointer;
 
                   &:hover {
                     background-color: var(--color-gray-dark);
@@ -1765,6 +1775,10 @@ button {
         width: 100%;
         height: auto;
         padding: 10px;
+
+        #mob {
+          display: none;
+        }
 
         p {
           font-size: 25px;
